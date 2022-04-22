@@ -1,0 +1,117 @@
+
+
+* {font-family: Red Hat Display;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+main{
+height: 100vh;
+}
+
+.container {
+  padding: 3%;
+  text-align: center;
+height: 100%;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+}
+
+/* card */
+
+.card {
+  border-radius: 5%;
+  width: 25em;
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+.upper-card, .upper-card img{
+    max-width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.lower-card {
+  padding: 7% 10%;
+}
+.lower-card h1 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color:  hsl(223, 47%, 23%);
+}
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+.plan {border-radius: 3%;
+  padding: 7%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  background-color: hsl(225, 100%, 98%);
+}
+.anual {
+  display: flex;
+}
+.anual img {
+  display: flex;
+  float: left;
+  width: 30%;
+
+  align-self: center;
+}
+.anual h2 {
+  font-size: small;
+  font-weight: 900;
+  clear: both;
+  color:  hsl(223, 47%, 23%);
+}
+.anual-text {
+  line-height: 1.5;
+  align-self: center;
+  margin-left: 7px;
+}
+.anual-text p {
+  font-size: smaller;
+}
+a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 100%;
+   padding: 5%;
+    border-radius: 7%;
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+    color: white;
+    box-shadow: 10px 10px 5px 12px hsl(225, 100%, 98%);
+    cursor: pointer;
+   
+}
+
+#cancel {
+    text-decoration: none;
+    font-weight: 900;
+     cursor: pointer;
+     color:hsl(224, 23%, 55%) ;
+}
+
+
+.attribution {
+  margin-bottom: auto;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
