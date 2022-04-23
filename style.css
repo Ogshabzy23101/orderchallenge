@@ -10,10 +10,13 @@ main{
 height: 100vh;
 }
 
-.container {
+.container {position: relative;
   padding: 3%;
   text-align: center;
-height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   background-image: url(./images/pattern-background-desktop.svg);
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
@@ -23,7 +26,7 @@ height: 100%;
 
 .card {
   border-radius: 5%;
-  width: 25em;
+  width: 25rem;
   font-size: 1rem;
   background-color: rgb(255, 255, 255);
   margin: auto;
@@ -108,7 +111,6 @@ button{
 
 
 .attribution {
-  margin-bottom: auto;
   font-size: 11px;
   text-align: center;
 }
